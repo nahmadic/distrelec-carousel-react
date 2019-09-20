@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import SlideData from '../../data.json';
 
 import './App.scss';
 
 function App() {
+  const [slideData, setSlideData] = useState([]);
+
+  useEffect(() => {
+    setSlideData(SlideData.carouselData);
+  });
+
   return (
     <div className="App">
       <header className="header">
