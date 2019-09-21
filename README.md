@@ -21,6 +21,10 @@ https://www.distrelec.biz/en/oscilloscope-2x100-mhz-gs-keysight-dsox3012a/p/1762
 
 ---------------------------------
 
+# Final Product
+
+![Image of Carousel](distrelecslider.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
