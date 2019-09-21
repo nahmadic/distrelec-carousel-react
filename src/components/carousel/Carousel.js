@@ -10,7 +10,9 @@ function Carousel({ slideData }) {
   return (
     <div className="carousel">
       <div className="carousel__inner">
-        {slideData.map(slide => <Slide key={slide.code} slideData={slide}/>)}
+        <div className="carousel__track">
+          {slideData.map(slide => <Slide key={slide.code} slideData={slide}/>)}
+        </div>
       </div>
     </div>
   );
